@@ -19,3 +19,14 @@
     margin: 5px;
     border-radius: 5px;
 }
+
+@media (max-width: 600px) {
+    .container {
+      width: 320px;
+      flex-wrap: wrap;
+    }
+  
+    .container div {
+      width: 150px;
+    }
+  }
