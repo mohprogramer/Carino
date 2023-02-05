@@ -9,7 +9,7 @@ function SearchBar() {
     const [min, setMin] = useState('');
     const [max, setMax] = useState('');
     
-    const searchHandler = (e) => {
+    const searchHandler = () => {
         if(min && max) {
             router.push(`/filter/${min}/${max}`)
         } else {
