@@ -1,0 +1,34 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+
+.container button {
+    all: unset;
+    background-color: #befa00;
+    padding: 20px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container input {
+    margin: 5px ;
+    border: 1px solid #befa00;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+

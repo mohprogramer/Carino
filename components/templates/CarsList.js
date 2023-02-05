@@ -11,7 +11,7 @@ function CarsList({data}) {
                 <Back />
                 <p>Back</p>
             </div>
-            <div className={styles.card}>
+            <div className={styles.cards}>
                 {
                     data.map(item => <Card key={item.id} {...item} />)
                 }
